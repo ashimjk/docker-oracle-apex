@@ -11,6 +11,7 @@ ENV PORT 1521
 ENV SID XE
 ENV HTTP_PORT 8080
 ENV APEX_VERSION 5.1.2
+ENV oracle_db_name oracle
 
 RUN apt-get update && apt-get -y install libaio1 unzip && apt-get clean && rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
